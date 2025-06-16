@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+  text-align: center;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 600px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: purple;
+  transition: background 0.3s;
+}
+#message {
+  margin: 15px;
+  font-size: 20px;
+  color: #333;
+}
